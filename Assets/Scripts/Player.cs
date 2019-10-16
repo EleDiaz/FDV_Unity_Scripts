@@ -75,7 +75,7 @@ public class Player : MonoBehaviour
     {
         return new Vector3(
             Random.Range(-radiusSpawn / 2, radiusSpawn / 2), 
-            0, 
+            1, 
             Random.Range(-radiusSpawn / 2, radiusSpawn / 2)
         );
     }
